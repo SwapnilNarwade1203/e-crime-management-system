@@ -1,0 +1,32 @@
+/* Example interactive styles for buttons */
+.btn-default {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-default:hover {
+    background-color: #007bff; /* Example hover background color */
+    color: #fff; /* Example hover text color */
+}
+
+/* Example styles for navbar */
+.navbar-nav > li > a {
+    transition: color 0.3s ease;
+}
+
+.navbar-nav > li > a:hover {
+    color: #007bff; /* Example hover link color */
+}
+
+/* Example styles for content */
+.content h1 {
+    transition: color 0.3s ease;
+}
+
+.content h1:hover {
+    color: #007bff; /* Example hover text color for h1 */
+}
+
+/* Example for smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
